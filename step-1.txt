@@ -1,0 +1,20 @@
+第1 阶段：
+1）购买云服务器
+
+2）建mongodb数据库
+User 
+  Id, name, email, phone, address, role
+Device
+  Id, edge, type, Startat, status
+Edge
+  Id, mac, ip, user, Start, Status
+MediaInfo
+  Id, device, user,start, end, format, status
+
+3）搭建媒体服务器，添加媒体数据4个用于测试
+
+4）后台服务实现用户拉取
+
+5）后台服务实现设备拉取
+
+6）后台服务实现媒体信息拉取
